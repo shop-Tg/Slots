@@ -1,0 +1,24 @@
+/* Additional custom styles can be added here */
+.telegram-button {
+    background-color: #2AABEE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.telegram-button:hover {
+    background-color: #229ED9;
+}
+
+.gift-animation {
+    animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+} 
